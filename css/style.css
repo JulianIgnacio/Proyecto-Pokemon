@@ -18,6 +18,39 @@ body {
 aside, .card {
     width: 250px;
 }
+/*Estilos agregados por Lourdes*/
+.bordeDetalle{
+    border: 2px solid rgb(226, 222, 222);
+    border-radius: 10px;
+}
+.cuadroVersion{
+    background-color: rgb(110, 126, 243);
+    border-radius: 10px;
+}
+.btnVioleta{
+    color: white;
+    background-color: violet;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.btnRosa{
+    color: white;
+    background-color: palevioletred;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.btnAmarillo{
+    color: white;
+    background-color: #fcfc74;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.listaVersion{
+    list-style: none;
+}
 @media all and (max-width:767px) {
     .banner-responsive {
         width: auto;
