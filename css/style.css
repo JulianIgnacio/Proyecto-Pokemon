@@ -1,0 +1,28 @@
+.dropdown-item:hover {
+    background-color:rgb(219, 76, 76);
+}
+.dropdown-item a:hover {
+    color: white;
+}
+main {
+    flex-grow: 1;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+aside, .card {
+    width: 250px;
+}
+@media all and (max-width:767px) {
+    .banner-responsive {
+        width: auto;
+        height: 300px;
+        object-fit: cover;
+        object-position: 50%;
+    }
+}
