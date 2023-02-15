@@ -56,14 +56,10 @@ aside, .card {
     margin: 10px 30px;
 }
 .imgEvolucion{
-    border-radius: 90px;
-    border-color: rgb(243, 234, 243);
-    border-width: 5px;
-    border-style: solid;
     margin-bottom: 10px;
-    height: 180px;
-    width: 180px;
-    padding: 5px;
+    height: 220px;
+    width: 220px;
+    
 }
 
 @media all and (max-width:767px) {
