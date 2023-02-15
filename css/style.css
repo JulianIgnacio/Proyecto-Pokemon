@@ -81,3 +81,16 @@ aside, .card {
         margin: 10px;
     }
 }
+@media all and (min-width: 768px) and (max-width: 991px){
+    .imgDetalleResponsiveMd{
+        width: 230px;
+        height: 230px;
+    }
+    .imgEvolucionResponsiveMd{
+        width: 190px;
+        height: 190px;
+    }
+    .fontsizeDispositivoMd{
+        font-size: smaller;
+    }
+}
