@@ -18,11 +18,79 @@ body {
 aside, .card {
     width: 250px;
 }
+/*Estilos agregados por Lourdes*/
+.bordeDetalle{
+    border: 2px solid rgb(226, 222, 222);
+    border-radius: 10px;
+}
+.cuadroVersion{
+    background-color: rgb(110, 126, 243);
+    border-radius: 10px;
+}
+.btnVioleta{
+    color: white;
+    background-color: violet;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.btnRosa{
+    color: white;
+    background-color: palevioletred;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.btnAmarillo{
+    color: white;
+    background-color: #fcfc74;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.listaVersion{
+    list-style: none;
+}
+.cuadroEvolucion{
+    background-color: rgb(162, 162, 162);
+    margin: 10px 30px;
+}
+.imgEvolucion{
+    margin-bottom: 10px;
+    height: 220px;
+    width: 220px;
+    
+}
+
 @media all and (max-width:767px) {
     .banner-responsive {
         width: auto;
         height: 300px;
         object-fit: cover;
         object-position: 50%;
+    }
+    .imgDetalleResponsive{
+        width: 200px;
+        height: 200px;
+    }
+    .imgEvolucionResponsive{
+        width: 180px;
+        height: 180px;
+    }
+    .cuadroEvolucionResponsive{
+        margin: 10px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 991px){
+    .imgDetalleResponsiveMd{
+        width: 230px;
+        height: 230px;
+    }
+    .imgEvolucionResponsiveMd{
+        width: 190px;
+        height: 190px;
+    }
+    .fontsizeDispositivoMd{
+        font-size: smaller;
     }
 }
