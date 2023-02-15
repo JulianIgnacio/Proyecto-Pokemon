@@ -69,4 +69,15 @@ aside, .card {
         object-fit: cover;
         object-position: 50%;
     }
+    .imgDetalleResponsive{
+        width: 200px;
+        height: 200px;
+    }
+    .imgEvolucionResponsive{
+        width: 180px;
+        height: 180px;
+    }
+    .cuadroEvolucionResponsive{
+        margin: 10px;
+    }
 }
