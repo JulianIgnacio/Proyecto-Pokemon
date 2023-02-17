@@ -48,6 +48,15 @@ aside, .card {
     border: none;
     border-radius: 10px;
 }
+
+.btnVerde {
+    color: white;
+    background-color: rgb(97, 248, 97);
+}
+.btnFuego {
+    color: white;
+    background-color: rgb(241, 103, 53);
+}
 .listaVersion{
     list-style: none;
 }
