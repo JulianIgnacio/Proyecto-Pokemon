@@ -63,12 +63,7 @@ aside, .card {
 }
 
 @media all and (max-width:767px) {
-    .banner-responsive {
-        width: auto;
-        height: 300px;
-        object-fit: cover;
-        object-position: 50%;
-    }
+    
     .imgDetalleResponsive{
         width: 200px;
         height: 200px;
@@ -94,3 +89,25 @@ aside, .card {
         font-size: smaller;
     }
 }
+
+@media all and (max-width:767px) {
+    .banner-responsive {
+        width: auto;
+        height: 200px    ;
+        object-fit: cover;
+        object-position: 45%;
+    }
+}
+
+aside, .card {
+    width: fit-content;
+}
+
+aside img {
+    padding:35px;
+}
+
+
+
+
+
