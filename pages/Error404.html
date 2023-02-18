@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link icono-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--Link bootstrap-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!--Link Estilos-->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Ekans|Pokedex</title>
+</head>
+<body>
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container">
+              <a class="navbar-brand text-white" href="/index.html">Pokedex</a>
+              <!--Bonton hamburguesa-->
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="/index.html">Inicio</a>
+                  </li>
+                  <!--Dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorias
+                    </a>
+                    <ul class="dropdown-menu bg-light">
+                      <li><a class="dropdown-item" href="#">Agua</a></li>
+                      <li><a class="dropdown-item" href="#">Tierra</a></li>
+                      <li><a class="dropdown-item" href="#">Electrico</a></li>
+                      <li><a class="dropdown-item" href="#">Fuego</a></li>
+                      <li><a class="dropdown-item" href="#">Psiquico</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="/pages/Nosotros.html">Nosotros</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar Pokemon" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="container">
+
+        <section class="d-flex justify-content-center
+         align-items-center flex-column">
+           <img  class="img-fluid error" src="/img/Error404.png" alt="Error404">
+           <p class="lead fs-4"> Lamentablemente no pudimos encontrar la página que buscas, quizas quieras volver al <a class=" text-danger fw-bolder text-decoration-none" href="/index.html">Inicio</a></p>
+           
+        </section>
+
+    </main>
+    <footer class="container-fluid bg-dark py-3 mt-2">
+        <section class="d-flex justify-content-center text-white align-items-center">
+        <p>&reg; Todos los derechos reservados</p>
+      </section>
+    </footer>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
