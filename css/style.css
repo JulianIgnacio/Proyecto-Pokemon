@@ -71,6 +71,11 @@ aside, .card {
     
 }
 
+.error {
+    padding-top: 10%;
+
+}
+
 @media all and (max-width:767px) {
     
     .imgDetalleResponsive{
@@ -105,6 +110,11 @@ aside, .card {
         height: 150px    ;
         object-fit: cover;
         object-position: 45%;
+    }
+
+    .error {
+        padding-top: 40%;
+        padding-bottom: 25%;
     }
 }
 
